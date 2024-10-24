@@ -69,6 +69,7 @@ async function sendToSlack(message) {
         await axios.post(options.slackWebhookUrl, {
             text: message
         });
+        console.log('Message was succesfully sent to Slack!');
     } catch (error) {
         console.error('Error while sending message to Slack:', error.message);
     }
