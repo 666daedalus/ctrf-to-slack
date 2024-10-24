@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/666daedalus/ctrf-to-slack.git"
+    "url": "git+https://github.com/666daedalus/ctrf-to-slack.git"
   },
   "description": "This module used for sending ctrf-report results to slack channel by webhook url.",
   "author": "666daedalus",
   "main": "ctrf-report.js",
   "type": "module",
   "bin": {
-    "ctrf-to-slack": "./slack-reporter.js"
+    "ctrf-to-slack": "slack-reporter.js"
   },
   "license": "MIT",
   "dependencies": {
