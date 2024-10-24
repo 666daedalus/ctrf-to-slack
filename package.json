@@ -1,6 +1,10 @@
 {
   "name": "ctrf-to-slack",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/666daedalus/ctrf-to-slack.git"
+  },
   "description": "This module used for sending ctrf-report results to slack channel by webhook url.",
   "author": "666daedalus",
   "main": "ctrf-report.js",
