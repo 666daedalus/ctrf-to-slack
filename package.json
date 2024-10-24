@@ -1,0 +1,16 @@
+{
+  "name": "ctrf-to-slack",
+  "version": "1.0.0",
+  "description": "This module used for sending ctrf-report results to slack channel by webhook url.",
+  "author": "666daedalus",
+  "main": "ctrf-report.js",
+  "type": "module",
+  "bin": {
+    "ctrf-to-slack": "./slack-reporter.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "commander": "^12.1.0"
+  }
+}
